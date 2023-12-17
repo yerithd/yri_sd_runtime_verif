@@ -1,0 +1,29 @@
+
+
+YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL="${HOME}/yri_sd_runtime_verif_lang"
+
+YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC="${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL}/src"
+
+
+YRI_SD_RUNTIME_VERIF="yri_sd_runtime_verif"
+
+SRC="src"
+
+
+mkdir -p "${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC}/${YRI_SD_RUNTIME_VERIF}/yri-expressions-conditions"
+
+mkdir -p "${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC}/${YRI_SD_RUNTIME_VERIF}/utils"
+
+mkdir -p "${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL}/lib"
+
+
+cp "${SRC}"/*.hpp "${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC}/${YRI_SD_RUNTIME_VERIF}"
+
+cp "${SRC}"/utils/YRI_CPP_UTILS.hpp \
+	"${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC}/${YRI_SD_RUNTIME_VERIF}/utils" 
+
+cp -r "${SRC}"/yri-expressions-conditions/*.HPP \
+	"${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL_SRC}/${YRI_SD_RUNTIME_VERIF}/yri-expressions-conditions"
+
+
+cp lib/"lib${YRI_SD_RUNTIME_VERIF}".a "${YRI_SD_RUNTIME_VERIF_LANG_HOME_DEVEL}/lib"

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="yri_sd_runtime_verif" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/yri_sd_runtime_verif" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/YRI_CPP_MONITOR.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR.hpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_EDGE.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_EDGE.hpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_EVENT.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_EVENT.hpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_STATE.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_STATE.hpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_TRACE_EVENT.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_TRACE_EVENT.hpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_object.cpp" />
+		<Unit filename="src/YRI_CPP_MONITOR_object.hpp" />
+		<Unit filename="src/utils/YRI_CPP_MONITOR_ERP-database.cpp" />
+		<Unit filename="src/utils/YRI_CPP_MONITOR_ERP-database.hpp" />
+		<Unit filename="src/utils/YRI_CPP_UTILS.cpp" />
+		<Unit filename="src/utils/YRI_CPP_UTILS.hpp" />
+		<Unit filename="src/yri-expressions-conditions/YRI_CPP_notinset_inset_TRACE_expression.CPP" />
+		<Unit filename="src/yri-expressions-conditions/YRI_CPP_notinset_inset_TRACE_expression.HPP" />
+		<Unit filename="src/yri-recovery/YRI_CPP_MONITOR_recovery_Object.hpp" />
+		<Unit filename="src/yri-recovery/YRI_CPP_MONITOR_recovery_SQL_INSERT.cpp" />
+		<Unit filename="src/yri-recovery/YRI_CPP_MONITOR_recovery_SQL_INSERT.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
