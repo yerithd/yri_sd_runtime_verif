@@ -654,7 +654,7 @@ QString YRI_CPP_MONITOR::YRI_open_HEADER_TEMPLATE_FILE()
     //                               << YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR;
 
     YRI_CPP_UTILS::
-    YEROTH_READ_FILE_CONTENT(a_template_HEADER_FILE_runtime_monitor,
+    YERITH_READ_FILE_CONTENT(a_template_HEADER_FILE_runtime_monitor,
                              YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR);
 
     //      qDebug() << "++ 2. YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR: "
@@ -687,7 +687,7 @@ QString YRI_CPP_MONITOR::YRI_open_SOURCE_TEMPLATE_FILE()
     //      qDebug() << "++ 1. YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR: "
     //                               << YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR;
 
-    YRI_CPP_UTILS::YEROTH_READ_FILE_CONTENT(a_template_SOURCE_FILE_runtime_monitor,
+    YRI_CPP_UTILS::YERITH_READ_FILE_CONTENT(a_template_SOURCE_FILE_runtime_monitor,
                              	 	 	   YRI_CPP_UTILS::YRI_SOURCE_cpp_TEMPLATE_RUNTIME_MONITOR);
 
     //      qDebug() << "++ 2. YRI_CPP_UTILS::YRI_HEARDER_hpp_TEMPLATE_RUNTIME_MONITOR: "

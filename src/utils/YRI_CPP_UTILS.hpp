@@ -56,7 +56,7 @@ public:
         return (0 == str1.compare(str2, Qt::CaseInsensitive));
     }
 
-    static void YEROTH_READ_FILE_CONTENT(QFile &file,
+    static void YERITH_READ_FILE_CONTENT(QFile &file,
                                          QString &fileContentVar);
 
     static void qDebugStrings(const QString &firstString,

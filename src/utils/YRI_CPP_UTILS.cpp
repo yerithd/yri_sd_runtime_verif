@@ -59,7 +59,7 @@ YRI_CPP_UTILS::YRI_CPP_UTILS()
 }
 
 
-void YRI_CPP_UTILS::YEROTH_READ_FILE_CONTENT(QFile &file,
+void YRI_CPP_UTILS::YERITH_READ_FILE_CONTENT(QFile &file,
                                             QString &fileContentVar)
 {
     if (file.open(QIODevice::ReadOnly))
