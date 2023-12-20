@@ -343,14 +343,14 @@ GET_error_final_STATES__OVER_EDGES(YRI_CPP_MONITOR &a_runtime_monitor,
 }
 
 
-void YRI_CPP_MONITOR_EDGE::print_FOR_YEROTH_ERP()
+void YRI_CPP_MONITOR_EDGE::print_FOR_YERITH_ERP()
 {
     if (0 != _EDGE_EVENT)
     {
         qDebug() << QString(" ****************** START (%1) ******************")
 					 .arg(_EDGE_EVENT->get_EVENT_TOKEN());
 
-        qDebug() << " *YRI_CPP_MONITOR_EDGE::print_FOR_YEROTH_ERP specification edge event: "
+        qDebug() << " *YRI_CPP_MONITOR_EDGE::print_FOR_YERITH_ERP specification edge event: "
                  << _EDGE_EVENT->get_EVENT_TOKEN() << "**";
     }
 }

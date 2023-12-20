@@ -175,7 +175,7 @@ public:
     void GET_error_final_STATES__OVER_EDGES(YRI_CPP_MONITOR &a_runtime_monitor,
                                 			QList<YRI_CPP_MONITOR_STATE *> &results_states);
 
-    virtual void print_FOR_YEROTH_ERP();
+    virtual void print_FOR_YERITH_ERP();
 
     virtual void print();
 

@@ -280,7 +280,7 @@ bool YRI_CPP_MONITOR::YRI_trigger_an_edge_event(QString 	an_edge_event,
     {
     	if (debug_MSG)
     	{
-    		cur_STATE_OUTGOING_EDGE->print_FOR_YEROTH_ERP();
+    		cur_STATE_OUTGOING_EDGE->print_FOR_YERITH_ERP();
 
     		qDebug() << " *[YRI_CPP_MONITOR::YRI_trigger_an_edge_event:] edge event guarded condition: "
 					 << cur_STATE_OUTGOING_EDGE->get_guarded_CONDITION_expression__TO_STRING()
