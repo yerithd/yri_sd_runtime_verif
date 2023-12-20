@@ -11,7 +11,7 @@
 /**
  * TO KEEP EXACTLY AS A RELATIVE PATH
  * SO TO AVOID build errors in
- * 'yr-db-runtime-verif' project.
+ * 'yri-db-runtime-verif' project.
  */
 #include "utils/YRI_CPP_UTILS.hpp"
 
