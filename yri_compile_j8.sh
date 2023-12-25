@@ -1,6 +1,6 @@
 #!/bin/bash
 #AUTEUR: DR.-ING. DIPL.-INF. XAVIER NOUNDOU
-#EMAIL: yerith.d@gmail.com
+#EMAIL: YERITH.xavier@gmail.com
 
 YRI_ERRORS_LOG_FILE="yri_errors.log"
 
